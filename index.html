@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body { font-family: sans-serif; display: flex; justify-content: center; padding: 40px; background-color: #f4f7f6; }
+    .signup-container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 400px; }
+    h2 { margin-top: 0; color: #333; }
+    input[type="text"], input[type="tel"] { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    .consent-box { display: flex; align-items: flex-start; margin-top: 15px; }
+    .consent-box input { margin-top: 4px; margin-right: 10px; }
+    .consent-text { font-size: 12px; color: #666; line-height: 1.4; }
+    .consent-text a { color: #0066cc; text-decoration: none; }
+    button { width: 100%; background-color: #0066cc; color: white; border: none; padding: 12px; border-radius: 4px; margin-top: 20px; cursor: pointer; font-size: 16px; }
+</style>
+</head>
+<body>
+
+<div class="signup-container">
+    <h2>Create Account</h2>
+    <label>Full Name</label>
+    <input type="text" placeholder="John Doe">
+    
+    <label>Phone Number</label>
+    <input type="tel" placeholder="(555) 000-0000">
+
+    <div class="consent-box">
+        <input type="checkbox" id="sms-consent">
+        <label for="sms-consent" class="consent-text">
+            I agree to receive automated promotional and personalized marketing text messages 
+            (e.g. cart reminders) from <strong>[Your Brand Name]</strong> at the cell number 
+            used when signing up. Consent is not a condition of any purchase. 
+            Reply HELP for help and STOP to cancel. Msg frequency varies. 
+            Msg & data rates may apply. View 
+            <a href="#">Terms</a> & <a href="#">Privacy</a>.
+        </label>
+    </div>
+
+    <button>Sign Up</button>
+</div>
+
+</body>
+</html>
