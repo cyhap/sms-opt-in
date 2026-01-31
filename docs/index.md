@@ -1,5 +1,9 @@
 # Strong and Savage Nutrition - SMS Program Documentation
 
+**[Privacy Policy](privacy-policy.md)** | **[Terms of Service](terms-of-service.md)**
+
+---
+
 ## Program Overview
 
 **Business Name:** Strong and Savage Nutrition
@@ -206,8 +210,13 @@ Before sending any SMS notification:
 ## Contact Information
 
 **Business:** Strong and Savage Nutrition
+**Website:** strongandsavagenutrition.com
 **Support:** Available via the meal ordering platform
 **Opt-Out:** Reply STOP to any message
+
+**Legal Documents:**
+- [Privacy Policy](privacy-policy.md)
+- [Terms of Service](terms-of-service.md)
 
 ---
 
