@@ -42,7 +42,7 @@ Clients must provide explicit consent before receiving any SMS notifications. Th
 
    > Strong and Savage Nutrition: Hi [Client Name]! We'd like to send you text notifications about new menus and orders.
    >
-   > Reply YES to subscribe or STOP to opt out. Reply HELP for help. Msg freq varies. Msg & data rates may apply.
+   > Reply YES to subscribe or STOP to opt out. Reply HELP for help. Msg freq: 1-3/wk. Msg & data rates may apply.
 
 3. **Client Provides Consent**
    The client must reply with an affirmative keyword to opt in:
@@ -56,7 +56,7 @@ Clients must provide explicit consent before receiving any SMS notifications. Th
 4. **Confirmation Sent**
    Upon opting in, the client receives a confirmation message:
 
-   > Strong and Savage Nutrition: You're now subscribed! You'll receive menu and order updates. Reply HELP for help, STOP to cancel. Msg freq varies. Msg & data rates may apply.
+   > Strong and Savage Nutrition: You're now subscribed! You'll receive menu and order updates. Reply HELP for help, STOP to cancel. Msg freq: 1-3/wk. Msg & data rates may apply.
 
 5. **Consent Recorded**
    The system records:
@@ -90,7 +90,7 @@ Clients can opt out at any time by replying with any of the following standard k
 
 Clients can reply `HELP` or `INFO` at any time to receive program information:
 
-> Strong and Savage Nutrition: Weekly meal prep ordering. Reply YES to subscribe, STOP to cancel. Msg freq varies. Msg & data rates may apply. Contact: strongandsavagenutrition.com
+> Strong and Savage Nutrition: Weekly meal prep ordering. Reply YES to subscribe, STOP to cancel. Msg freq: 1-3/wk. Msg & data rates may apply. Contact: strongandsavagenutrition.com
 
 ### Opt-Out Confirmation
 
@@ -116,7 +116,7 @@ Strong and Savage Nutrition: Hi Sarah! We'd like to send you text
 notifications about new menus and orders.
 
 Reply YES to subscribe or STOP to opt out. Reply HELP for help.
-Msg freq varies. Msg & data rates may apply.
+Msg freq: 1-3/wk. Msg & data rates may apply.
 ```
 
 ### Menu Notification
@@ -124,7 +124,7 @@ Msg freq varies. Msg & data rates may apply.
 Strong and Savage Nutrition: Hi Sarah! Weekly Menu is now available.
 Order by Sun, Feb 2, 6:00 PM: https://example.com/order/abc123?token=xyz
 
-Reply HELP for help, STOP to cancel. Msg freq varies.
+Reply HELP for help, STOP to cancel. Msg freq: 1-3/wk.
 Msg & data rates may apply.
 ```
 
@@ -132,7 +132,7 @@ Msg & data rates may apply.
 ```
 Strong and Savage Nutrition: You're now subscribed! You'll receive
 menu and order updates. Reply HELP for help, STOP to cancel.
-Msg freq varies. Msg & data rates may apply.
+Msg freq: 1-3/wk. Msg & data rates may apply.
 ```
 
 ### Opt-Out Confirmation
@@ -144,7 +144,7 @@ longer receive messages. Reply START to re-subscribe.
 ### HELP Response
 ```
 Strong and Savage Nutrition: Weekly meal prep ordering. Reply YES to
-subscribe, STOP to cancel. Msg freq varies. Msg & data rates may apply.
+subscribe, STOP to cancel. Msg freq: 1-3/wk. Msg & data rates may apply.
 Contact: strongandsavagenutrition.com
 ```
 
