@@ -40,9 +40,9 @@ Clients must provide explicit consent before receiving any SMS notifications. Th
 2. **Client Receives Opt-In Request**
    The client receives an SMS with the following message:
 
-   > Hi [Client Name]! Strong and Savage Nutrition would like to send you text notifications about new menus and orders.
+   > Strong and Savage Nutrition: Hi [Client Name]! We'd like to send you text notifications about new menus and orders.
    >
-   > Reply YES to subscribe or STOP to opt out. Msg & data rates may apply.
+   > Reply YES to subscribe or STOP to opt out. Reply HELP for help. Msg freq varies. Msg & data rates may apply.
 
 3. **Client Provides Consent**
    The client must reply with an affirmative keyword to opt in:
@@ -56,7 +56,7 @@ Clients must provide explicit consent before receiving any SMS notifications. Th
 4. **Confirmation Sent**
    Upon opting in, the client receives a confirmation message:
 
-   > You're now subscribed to Strong and Savage Nutrition notifications! Reply STOP at any time to unsubscribe.
+   > Strong and Savage Nutrition: You're now subscribed! You'll receive menu and order updates. Reply HELP for help, STOP to cancel. Msg freq varies. Msg & data rates may apply.
 
 5. **Consent Recorded**
    The system records:
@@ -90,13 +90,13 @@ Clients can opt out at any time by replying with any of the following standard k
 
 Clients can reply `HELP` or `INFO` at any time to receive program information:
 
-> Strong and Savage Nutrition: Weekly meal prep ordering. Reply YES to subscribe, STOP to cancel. Msg & data rates may apply. Contact us at strongandsavagenutrition.com for support.
+> Strong and Savage Nutrition: Weekly meal prep ordering. Reply YES to subscribe, STOP to cancel. Msg freq varies. Msg & data rates may apply. Contact: strongandsavagenutrition.com
 
 ### Opt-Out Confirmation
 
 When a client opts out, they receive an immediate confirmation:
 
-> You've been unsubscribed from Strong and Savage Nutrition notifications. Reply START to re-subscribe anytime.
+> Strong and Savage Nutrition: You've been unsubscribed and will no longer receive messages. Reply START to re-subscribe.
 
 ### Opt-Out Processing
 
@@ -112,38 +112,40 @@ When a client opts out, they receive an immediate confirmation:
 
 ### Opt-In Request
 ```
-Hi Sarah! Strong and Savage Nutrition would like to send you text
+Strong and Savage Nutrition: Hi Sarah! We'd like to send you text
 notifications about new menus and orders.
 
-Reply YES to subscribe or STOP to opt out. Msg & data rates may apply.
+Reply YES to subscribe or STOP to opt out. Reply HELP for help.
+Msg freq varies. Msg & data rates may apply.
 ```
 
 ### Menu Notification
 ```
-Hi Sarah! A new menu is available from Strong and Savage Nutrition.
+Strong and Savage Nutrition: Hi Sarah! Weekly Menu is now available.
+Order by Sun, Feb 2, 6:00 PM: https://example.com/order/abc123?token=xyz
 
-View and order here: https://example.com/order/abc123?token=xyz789
-
-Order before Sunday 6:00 PM to secure your meals!
+Reply HELP for help, STOP to cancel. Msg freq varies.
+Msg & data rates may apply.
 ```
 
 ### Opt-In Confirmation
 ```
-You're now subscribed to Strong and Savage Nutrition notifications!
-Reply STOP at any time to unsubscribe.
+Strong and Savage Nutrition: You're now subscribed! You'll receive
+menu and order updates. Reply HELP for help, STOP to cancel.
+Msg freq varies. Msg & data rates may apply.
 ```
 
 ### Opt-Out Confirmation
 ```
-You've been unsubscribed from Strong and Savage Nutrition notifications.
-Reply START to re-subscribe anytime.
+Strong and Savage Nutrition: You've been unsubscribed and will no
+longer receive messages. Reply START to re-subscribe.
 ```
 
 ### HELP Response
 ```
 Strong and Savage Nutrition: Weekly meal prep ordering. Reply YES to
-subscribe, STOP to cancel. Msg & data rates may apply. Contact us at
-strongandsavagenutrition.com for support.
+subscribe, STOP to cancel. Msg freq varies. Msg & data rates may apply.
+Contact: strongandsavagenutrition.com
 ```
 
 ---
